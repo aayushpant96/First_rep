@@ -1,0 +1,21 @@
+
+#container {
+background-image:url("starrynight.jpg");
+height: 250px;
+width: 250px;
+position: relative;
+}
+
+.row
+{
+height:25px;
+}
+
+.col{
+	background: black;
+	width: 25px;
+	height:25px;
+	display: table-cell;
+	margin:0px;
+	padding: 0px;
+}

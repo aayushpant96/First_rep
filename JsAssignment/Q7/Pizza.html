@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<script src="script_7.js"></script>
+
+</head>
+
+<body>
+	
+	<h1>Pizza Order Form</h1>
+
+	<fieldset>
+
+		# of Small Pizzas <input type="text" id="small" /><br />
+
+		# of Medium Pizzas <input type="text" id="medium" /><br />
+
+		# of Large Pizzas <input type="text" id="large" /><br />
+
+		Tip:
+
+		<label><input type="radio" id="ten" name="tip" class="ab" value="10" /> 10%</label>
+
+		<label><input type="radio" id="fifteen" name="tip" checked="checked" class="ab" value="15"/> 15%</label>
+
+		<label><input type="radio" id="twenty" name="tip" class="ab" value="20"/> 20%</label> <br />
+
+		<button id="submit" onclick="cal()">Calculate Order</button>
+
+	</fieldset>
+
+	<p id="par">
+
+		Cost of order: <span id="price"></span>
+
+	<p>
+
+</body>	
+
+</html>

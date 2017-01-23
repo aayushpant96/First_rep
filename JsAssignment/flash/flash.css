@@ -1,0 +1,29 @@
+h1
+{
+	text-align:center;
+	color:red;
+}
+
+img
+{
+
+	height:60%;
+	width:40%;
+	
+}
+h2
+{
+	text-align:center;
+	display: none;
+}
+
+h3
+{
+	color:red;
+}
+
+#buttons
+{
+	margin:auto;
+	text-align: center;
+}

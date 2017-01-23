@@ -1,0 +1,23 @@
+#mydiv
+{
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#container
+{
+	margin:20px;
+}
+
+body
+{
+	margin-top: 10px; 
+}
+
+.row
+{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
